@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { FailComponent } from './fail/fail.component';
 import { LoginComponent } from './login/login.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
+import { TablesComponent } from './tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
     HomeComponent,
     FailComponent,
     LoginComponent,
-    FormulaireComponent
+    FormulaireComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,
