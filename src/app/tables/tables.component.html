@@ -9,7 +9,7 @@
         <th scope="col">nOM</th>
 
       </tr>
-      <tr *ngFor="let table of x; let i = index">
+      <tr *ngFor="let table of listTables; let i = index">
         <td>{{ table.id }}</td>
         <td>{{ table.nom }}</td>
       </tr>
@@ -17,3 +17,6 @@
     <tbody>
     </tbody>
   </table>
+  <div style="display: flex; justify-content: center;">
+    <button type="button" class="btn btn-warning"[routerLink]="['/home']">Retour</button>
+</div>

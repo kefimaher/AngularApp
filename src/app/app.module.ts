@@ -8,6 +8,7 @@ import { FailComponent } from './fail/fail.component';
 import { LoginComponent } from './login/login.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { TablesComponent } from './tables/tables.component';
+import { InscrireComponent } from './inscrire/inscrire.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TablesComponent } from './tables/tables.component';
     FailComponent,
     LoginComponent,
     FormulaireComponent,
-    TablesComponent
+    TablesComponent,
+    InscrireComponent
   ],
   imports: [
     BrowserModule,

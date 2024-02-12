@@ -5,12 +5,10 @@ import { tables } from './models/tables';
   providedIn: 'root'
 })
 export class TablesService {
-  x:tables[]=[
+  listTables:tables[]=[
     {id:1,nom:'une'},
     {id:2,nom:'deux'},
     {id:3,nom:'trois'}
   ]
-
-
   constructor() { }
 }
